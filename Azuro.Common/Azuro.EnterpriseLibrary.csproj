@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D1C7496-9F1A-4FBC-9F52-EF72F315076E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Azuro.EnterpriseLibrary</RootNamespace>
+    <AssemblyName>Azuro.EnterpriseLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Azuro.Common\AttributeHelper.cs" />
+    <Compile Include="Azuro.Common\Caching\CacheConfigSection.cs" />
+    <Compile Include="Azuro.Common\Caching\CacheManager.cs" />
+    <Compile Include="Azuro.Common\Caching\ICacheManager.cs" />
+    <Compile Include="Azuro.Common\Collections\Triplet.cs" />
+    <Compile Include="Azuro.Common\Configuration\AConfigurationSection.cs" />
+    <Compile Include="Azuro.Common\Configuration\ConfigurationElementCollection.cs" />
+    <Compile Include="Azuro.Common\Configuration\ConfigurationHelper.cs" />
+    <Compile Include="Azuro.Common\Configuration\ConfigurationSectionHandler.cs" />
+    <Compile Include="Azuro.Common\Configuration\ConfigurationValidator.cs" />
+    <Compile Include="Azuro.Common\Configuration\KeyValueConfigurationSection.cs" />
+    <Compile Include="Azuro.Common\Cryptography\CryptographicHelper.cs" />
+    <Compile Include="Azuro.Common\Data\ADataEntity.cs" />
+    <Compile Include="Azuro.Common\Data\ADataEntityCache.cs" />
+    <Compile Include="Azuro.Common\Data\DatabaseColumnAttribute.cs" />
+    <Compile Include="Azuro.Common\Data\DatabaseRelatedEntityAttribute.cs" />
+    <Compile Include="Azuro.Common\Data\DatabaseRelationMappingAttribute.cs" />
+    <Compile Include="Azuro.Common\Data\DataObjectException.cs" />
+    <Compile Include="Azuro.Common\Data\IsDirtyAttribute.cs" />
+    <Compile Include="Azuro.Common\Data\KeyColumn.cs" />
+    <Compile Include="Azuro.Common\Data\KeyTarget.cs" />
+    <Compile Include="Azuro.Common\Data\LookupCodeMappingAttribute.cs" />
+    <Compile Include="Azuro.Common\Data\SqlTextCommandType.cs" />
+    <Compile Include="Azuro.Common\Data\StoredProcedureAttribute.cs" />
+    <Compile Include="Azuro.Common\EmailValidatorAttribute.cs" />
+    <Compile Include="Azuro.Common\IntegerValidatorAttribute.cs" />
+    <Compile Include="Azuro.Common\LateBound.cs" />
+    <Compile Include="Azuro.Common\Messaging\SerializedMessage.cs" />
+    <Compile Include="Azuro.Common\ObjectReflection\ObjectInformation.cs" />
+    <Compile Include="Azuro.Common\Profiler.cs" />
+    <Compile Include="Azuro.Common\Properties\AssemblyInfo.cs" />
+    <Compile Include="Azuro.Common\RegularExpressionValidatorAttribute.cs" />
+    <Compile Include="Azuro.Common\ReplacementParameters\ReplacementParameters.cs" />
+    <Compile Include="Azuro.Common\ReplacementParameters\ReplacementParametersConfigurationSection.cs" />
+    <Compile Include="Azuro.Common\Security\SecurityExceptionViewer.cs" />
+    <Compile Include="Azuro.Common\Security\User.cs" />
+    <Compile Include="Azuro.Common\Util.cs" />
+    <Compile Include="Azuro.Common\Validation\AValidatorAttribute.cs" />
+    <Compile Include="Azuro.Common\Validation\GenericValidation.cs" />
+    <Compile Include="Azuro.Common\Validation\LengthValidatorAttribute.cs" />
+    <Compile Include="Azuro.Common\Validation\RequiredValidatorAttribute.cs" />
+    <Compile Include="Azuro.Common\Validation\SouthAfricanIDValidatorAttribute.cs" />
+    <Compile Include="Azuro.Common\Zip\SharpZip.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Azuro.Common\PyroCommonLibKey.snk" />
+    <None Include="Azuro.Common\_class diagram\Other Classes.cd" />
+    <None Include="Azuro.Common\_class diagram\PyroGenesis.Caching.cd" />
+    <None Include="Azuro.Common\_class diagram\PyroGenesis.Common.cd" />
+    <None Include="Azuro.Common\_class diagram\PyroGenesis.Common.Validation.cd" />
+    <None Include="Azuro.Common\_class diagram\PyroGenesis.Configuration.cd" />
+    <None Include="Azuro.Common\_class diagram\PyroGenesis.Data.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Azuro.Common\WinService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+		<summary>$description$</summary>
+		<licenseUrl>http://www.azuro.co.za/EnterpriseLibrary/license.htm</licenseUrl>
+		<projectUrl>http://www.azuro.co.za/EnterpriseLibrary/</projectUrl>
+		<iconUrl>http://www.azuro.co.za/EnterpriseLibrary/icon.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+		<releaseNotes>Getting my fingers burned with versioning and NuGet!</releaseNotes>
+		<copyright>Copyright ($author$) 2015</copyright>
+    <tags>Azuro Windows Service</tags>
+		<dependencies>
+			<dependency id="Azuro.Common" version="1.0.5829" />
+		</dependencies>
+	</metadata>
+</package>

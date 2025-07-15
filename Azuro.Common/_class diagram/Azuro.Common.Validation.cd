@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azuro.Common.Validation.AValidatorAttribute">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Validation\AValidatorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.Validation.ValidationException">
+    <Position X="2.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\AValidatorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.Validation.GenericValidation">
+    <Position X="0.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAAAg=</HashCode>
+      <FileName>Validation\GenericValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.Validation.LengthValidatorAttribute">
+    <Position X="0.5" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAIBAAAAgAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Validation\LengthValidatorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.Validation.RequiredValidatorAttribute">
+    <Position X="4.25" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RequiredValidatorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.Validation.SouthAfricanIDValidatorAttribute">
+    <Position X="7.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\SouthAfricanIDValidatorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

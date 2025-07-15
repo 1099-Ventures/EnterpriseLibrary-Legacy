@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azuro.Common.WindowsService.AttributeHelper">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAAAAgAAAAgAAAAAAAAAAAAAAAQAAQAAAABAA=</HashCode>
+      <FileName>AttributeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.WindowsService.ServiceNameAttribute">
+    <Position X="0.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.WindowsService.ServiceAccountAttribute">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.WindowsService.ServiceStartTypeAttribute">
+    <Position X="5.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.WindowsService.ServiceInteractWithDesktopAttribute">
+    <Position X="5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.WindowsService.ServiceStartOnInstallAttribute">
+    <Position X="2.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.WindowsService.WindowsServiceHelper&lt;T&gt;">
+    <Position X="0.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAABCAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>WindowsServiceHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.WindowsService.WindowsServiceInstaller&lt;T&gt;">
+    <Position X="3.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAABAACAAAAAAAAAAIAAAAAAAAACAAA=</HashCode>
+      <FileName>WindowsServiceInstaller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

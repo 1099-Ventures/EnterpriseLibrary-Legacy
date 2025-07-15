@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azuro.Data.SqlTextCommand">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SqlTextCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.SqlTextProcedure">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAKAAAAAAAAA=</HashCode>
+      <FileName>SqlTextCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.SqlTextParameter">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAACCAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SqlTextCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.SqlTextCommandHandler">
+    <Position X="2.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SqlTextCommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

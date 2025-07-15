@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azuro.Caching", "Azuro.Caching\Azuro.Caching.csproj", "{7448DE8A-AA9B-43C2-92C9-F55B455A5074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azuro.Common", "Azuro.Common\Azuro.Common.csproj", "{D83790DD-79C0-4823-87A6-92660EEA1762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azuro.Common.WindowsService", "Azuro.Common.WindowsService\Azuro.Common.WindowsService.csproj", "{C16727A2-BEAC-4322-BAC7-DB614797C465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azuro.Common.Configuration.Design", "Azuro.Common.Configuration.Design\Azuro.Common.Configuration.Design.csproj", "{F0294288-9976-4D96-81F3-71D6DADA1F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azuro.Common.MSMQ", "Azuro.Common.MSMQ\Azuro.Common.MSMQ.csproj", "{ABFD843B-A88C-4E6A-B9E1-D3BEC453B65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azuro.MSMQ", "Azuro.MSMQ\Azuro.MSMQ.csproj", "{9153C169-5A97-4EFF-8235-D645E5FCB9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azuro.ActiveDirectory", "Azuro.ActiveDirectory\Azuro.ActiveDirectory.csproj", "{9AF3FFC3-A5C6-425B-B652-CFC3E84729FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azuro.Common.Security", "Azuro.Common.Security\Azuro.Common.Security.csproj", "{B3193A26-9B0C-4C19-8231-6E41CE966D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit.Test.EnterpriseLibrary", "Unit.Test.EnterpriseLibrary\Unit.Test.EnterpriseLibrary.csproj", "{7493FD03-C635-420D-AAB5-DD998D2CDBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Packager", "NuGet.Packager\NuGet.Packager.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://azuro.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Azuro.Caching\\Azuro.Caching.csproj
+		SccProjectName1 = Azuro.Caching
+		SccLocalPath1 = Azuro.Caching
+		SccProjectUniqueName2 = Azuro.Common\\Azuro.Common.csproj
+		SccProjectName2 = Azuro.Common
+		SccLocalPath2 = Azuro.Common
+		SccProjectUniqueName3 = Azuro.Common.WindowsService\\Azuro.Common.WindowsService.csproj
+		SccProjectName3 = Azuro.Common.WindowsService
+		SccLocalPath3 = Azuro.Common.WindowsService
+		SccProjectUniqueName4 = Azuro.Common.Configuration.Design\\Azuro.Common.Configuration.Design.csproj
+		SccProjectName4 = Azuro.Common.Configuration.Design
+		SccLocalPath4 = Azuro.Common.Configuration.Design
+		SccProjectUniqueName5 = Azuro.Common.MSMQ\\Azuro.Common.MSMQ.csproj
+		SccProjectName5 = Azuro.Common.MSMQ
+		SccLocalPath5 = Azuro.Common.MSMQ
+		SccProjectUniqueName6 = Azuro.MSMQ\\Azuro.MSMQ.csproj
+		SccProjectName6 = Azuro.MSMQ
+		SccLocalPath6 = Azuro.MSMQ
+		SccProjectUniqueName7 = Azuro.ActiveDirectory\\Azuro.ActiveDirectory.csproj
+		SccProjectName7 = Azuro.ActiveDirectory
+		SccLocalPath7 = Azuro.ActiveDirectory
+		SccProjectUniqueName8 = Azuro.Common.Security\\Azuro.Common.Security.csproj
+		SccProjectName8 = Azuro.Common.Security
+		SccLocalPath8 = Azuro.Common.Security
+		SccProjectUniqueName9 = Unit.Test.EnterpriseLibrary\\Unit.Test.EnterpriseLibrary.csproj
+		SccProjectName9 = Unit.Test.EnterpriseLibrary
+		SccLocalPath9 = Unit.Test.EnterpriseLibrary
+		SccProjectUniqueName10 = NuGet.Packager\\NuGet.Packager.csproj
+		SccProjectName10 = NuGet.Packager
+		SccLocalPath10 = NuGet.Packager
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release 4.0|Any CPU = Release 4.0|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7448DE8A-AA9B-43C2-92C9-F55B455A5074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7448DE8A-AA9B-43C2-92C9-F55B455A5074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7448DE8A-AA9B-43C2-92C9-F55B455A5074}.Release 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{7448DE8A-AA9B-43C2-92C9-F55B455A5074}.Release 4.0|Any CPU.Build.0 = Release|Any CPU
+		{7448DE8A-AA9B-43C2-92C9-F55B455A5074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7448DE8A-AA9B-43C2-92C9-F55B455A5074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83790DD-79C0-4823-87A6-92660EEA1762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83790DD-79C0-4823-87A6-92660EEA1762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83790DD-79C0-4823-87A6-92660EEA1762}.Release 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{D83790DD-79C0-4823-87A6-92660EEA1762}.Release 4.0|Any CPU.Build.0 = Release|Any CPU
+		{D83790DD-79C0-4823-87A6-92660EEA1762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83790DD-79C0-4823-87A6-92660EEA1762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16727A2-BEAC-4322-BAC7-DB614797C465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16727A2-BEAC-4322-BAC7-DB614797C465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16727A2-BEAC-4322-BAC7-DB614797C465}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{C16727A2-BEAC-4322-BAC7-DB614797C465}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{C16727A2-BEAC-4322-BAC7-DB614797C465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16727A2-BEAC-4322-BAC7-DB614797C465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0294288-9976-4D96-81F3-71D6DADA1F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0294288-9976-4D96-81F3-71D6DADA1F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0294288-9976-4D96-81F3-71D6DADA1F5C}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{F0294288-9976-4D96-81F3-71D6DADA1F5C}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{F0294288-9976-4D96-81F3-71D6DADA1F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0294288-9976-4D96-81F3-71D6DADA1F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFD843B-A88C-4E6A-B9E1-D3BEC453B65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFD843B-A88C-4E6A-B9E1-D3BEC453B65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFD843B-A88C-4E6A-B9E1-D3BEC453B65F}.Release 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFD843B-A88C-4E6A-B9E1-D3BEC453B65F}.Release 4.0|Any CPU.Build.0 = Release|Any CPU
+		{ABFD843B-A88C-4E6A-B9E1-D3BEC453B65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFD843B-A88C-4E6A-B9E1-D3BEC453B65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9153C169-5A97-4EFF-8235-D645E5FCB9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9153C169-5A97-4EFF-8235-D645E5FCB9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9153C169-5A97-4EFF-8235-D645E5FCB9BE}.Release 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{9153C169-5A97-4EFF-8235-D645E5FCB9BE}.Release 4.0|Any CPU.Build.0 = Release|Any CPU
+		{9153C169-5A97-4EFF-8235-D645E5FCB9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9153C169-5A97-4EFF-8235-D645E5FCB9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF3FFC3-A5C6-425B-B652-CFC3E84729FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF3FFC3-A5C6-425B-B652-CFC3E84729FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF3FFC3-A5C6-425B-B652-CFC3E84729FB}.Release 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF3FFC3-A5C6-425B-B652-CFC3E84729FB}.Release 4.0|Any CPU.Build.0 = Release|Any CPU
+		{9AF3FFC3-A5C6-425B-B652-CFC3E84729FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF3FFC3-A5C6-425B-B652-CFC3E84729FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3193A26-9B0C-4C19-8231-6E41CE966D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3193A26-9B0C-4C19-8231-6E41CE966D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3193A26-9B0C-4C19-8231-6E41CE966D86}.Release 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{B3193A26-9B0C-4C19-8231-6E41CE966D86}.Release 4.0|Any CPU.Build.0 = Release|Any CPU
+		{B3193A26-9B0C-4C19-8231-6E41CE966D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3193A26-9B0C-4C19-8231-6E41CE966D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7493FD03-C635-420D-AAB5-DD998D2CDBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7493FD03-C635-420D-AAB5-DD998D2CDBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7493FD03-C635-420D-AAB5-DD998D2CDBB9}.Release 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{7493FD03-C635-420D-AAB5-DD998D2CDBB9}.Release 4.0|Any CPU.Build.0 = Release|Any CPU
+		{7493FD03-C635-420D-AAB5-DD998D2CDBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7493FD03-C635-420D-AAB5-DD998D2CDBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release 4.0|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

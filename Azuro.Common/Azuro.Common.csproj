@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D83790DD-79C0-4823-87A6-92660EEA1762}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Azuro.Common</RootNamespace>
+    <AssemblyName>Azuro.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>code.azuro.co.za.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.4.12\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enum\EnumHelper.cs" />
+    <Compile Include="Formatting\HtmlFormatter.cs" />
+    <Compile Include="Messaging\IMessageHandler.cs" />
+    <Compile Include="Messaging\XmlTextWriterFormattedNoDeclaration.cs" />
+    <Compile Include="Reflection\AttributeHelper.cs" />
+    <Compile Include="Caching\CacheConfigSection.cs" />
+    <Compile Include="Caching\CacheManager.cs" />
+    <Compile Include="Caching\ICacheManager.cs" />
+    <Compile Include="Collections\Triplet.cs" />
+    <Compile Include="CommandLine\Arguments.cs" />
+    <Compile Include="Configuration\AConfigurationSection.cs" />
+    <Compile Include="Configuration\ConfigurationElementCollection.cs" />
+    <Compile Include="Configuration\ConfigurationHelper.cs" />
+    <Compile Include="Configuration\ConfigurationSectionHandler.cs" />
+    <Compile Include="Configuration\ConfigurationValidator.cs" />
+    <Compile Include="Configuration\KeyValueConfigurationSection.cs" />
+    <Compile Include="Cryptography\CryptographicHelper.cs" />
+    <Compile Include="Data\ADataEntity.cs" />
+    <Compile Include="Data\ADataEntityCache.cs" />
+    <Compile Include="Data\DatabaseColumnAttribute.cs" />
+    <Compile Include="Data\DatabaseRelatedEntityAttribute.cs" />
+    <Compile Include="Data\DatabaseRelationMappingAttribute.cs" />
+    <Compile Include="Data\DataObjectException.cs" />
+    <Compile Include="Data\IsDirtyAttribute.cs" />
+    <Compile Include="Data\KeyColumn.cs" />
+    <Compile Include="Data\KeyTarget.cs" />
+    <Compile Include="Data\LookupCodeMappingAttribute.cs" />
+    <Compile Include="Data\SqlTextCommandType.cs" />
+    <Compile Include="Data\StoredProcedureAttribute.cs" />
+    <Compile Include="Serialization\Serializer.cs" />
+    <Compile Include="Validation\EmailValidatorAttribute.cs" />
+    <Compile Include="Validation\IntegerValidatorAttribute.cs" />
+    <Compile Include="Reflection\LateBound.cs" />
+    <Compile Include="Messaging\SerializedMessage.cs" />
+    <Compile Include="Reflection\GenericTypeCreator.cs" />
+    <Compile Include="Reflection\ObjectInformation.cs" />
+    <Compile Include="Profiler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\RegularExpressionValidatorAttribute.cs" />
+    <Compile Include="ReplacementParameters\ReplacementParameters.cs" />
+    <Compile Include="ReplacementParameters\ReplacementParametersConfigurationSection.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Validation\AValidatorAttribute.cs" />
+    <Compile Include="Validation\GenericValidation.cs" />
+    <Compile Include="Validation\LengthValidatorAttribute.cs" />
+    <Compile Include="Validation\RequiredValidatorAttribute.cs" />
+    <Compile Include="Validation\SouthAfricanIDValidatorAttribute.cs" />
+    <Compile Include="Wcf\WcfProxy.cs" />
+    <Compile Include="Zip\SharpZip.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code.azuro.co.za.pfx" />
+    <None Include="Azuro.Common.nuspec" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="nugetpush.bat" />
+    <None Include="packages.config" />
+    <None Include="_class diagram\Other Classes.cd" />
+    <None Include="_class diagram\Azuro.Caching.cd" />
+    <None Include="_class diagram\Azuro.Common.cd" />
+    <None Include="_class diagram\Azuro.Common.Validation.cd" />
+    <None Include="_class diagram\Azuro.Configuration.cd" />
+    <None Include="_class diagram\Azuro.Data.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code.azuroco.za.keyfile" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

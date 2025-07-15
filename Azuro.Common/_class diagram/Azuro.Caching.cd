@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azuro.Caching.CacheConfigSection">
+    <Position X="1.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAABAAAAA=</HashCode>
+      <FileName>Caching\CacheConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Caching.CacheConfigSectionHandler" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caching\CacheConfigSection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azuro.Caching.CacheManager">
+    <Position X="1.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAQAAAIAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>Caching\CacheManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Azuro.Caching.ICacheManager">
+    <Position X="5.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAACAAABAAAAAAAAAAAAAAgAABQAAA=</HashCode>
+      <FileName>Caching\ICacheManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Azuro.Caching.Strategy">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Caching\CacheConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

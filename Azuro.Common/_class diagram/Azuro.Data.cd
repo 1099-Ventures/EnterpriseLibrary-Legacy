@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azuro.Data.ADataEntity">
+    <Position X="0.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ADataEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataEntityWithIdentityId&lt;T&gt;">
+    <Position X="0.5" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ADataEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataEntity">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Class Name="Azuro.Data.DataEntity.ADataEntityCache" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\ADataEntityCache.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IACAAAAAIAAICAAAAAAAECCAAgwACgAAABIBAACAAAo=</HashCode>
+      <FileName>Data\ADataEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azuro.Data.DatabaseColumnAttribute">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABAAgABAAAAAAIBAABAAAAAAAQAAAAA=</HashCode>
+      <FileName>Data\DatabaseColumnAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DatabaseRelatedEntityAttribute">
+    <Position X="7.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAEBAAAgAAAAA=</HashCode>
+      <FileName>Data\DatabaseRelatedEntityAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DatabaseRelationMappingAttribute">
+    <Position X="7.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAIAQAAAAAAAAACAA=</HashCode>
+      <FileName>Data\DatabaseRelationMappingAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataObjectException">
+    <Position X="4.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataObjectException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.IsDirtyAttribute">
+    <Position X="10.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\IsDirtyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.KeyColumn">
+    <Position X="4.25" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAAAABAAQABABAAAAAQKAQAIDAAAAAAQRAACA=</HashCode>
+      <FileName>Data\KeyColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.LookupCodeMappingAttribute">
+    <Position X="4.25" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\LookupCodeMappingAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.StoredProcedureAttribute">
+    <Position X="7.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAIAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\StoredProcedureAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Azuro.Data.EntityRelationType">
+    <Position X="4.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Data\DatabaseRelatedEntityAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Azuro.Data.KeyTarget">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Data\KeyTarget.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Azuro.Data.SqlTextCommandType">
+    <Position X="10.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\SqlTextCommandType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

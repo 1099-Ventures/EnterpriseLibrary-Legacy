@@ -1,0 +1,9 @@
+Interface for base data access
+Entity for containing data
+Cache database parameters -> local or HttpRuntimeCache
+handle stored proc parms in for list, update, fetch, delete, insert?
+config section handler for data access assemblies and loading etc
+data access factory
+
+Issues:
+Output parameters, specifically the return parameter

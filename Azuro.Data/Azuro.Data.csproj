@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3499E6C-F6B1-4529-A0AD-AB3B90507A4D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Azuro.Data</RootNamespace>
+    <AssemblyName>Azuro.Data</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BulkInserterReader.cs" />
+    <Compile Include="DataAccessConfigObjectHelper.cs" />
+    <Compile Include="DataAccessConfigObjectSectionEntity.cs" />
+    <Compile Include="DataAccessConfigSection.cs" />
+    <Compile Include="DataConnectionAttribute.cs" />
+    <Compile Include="DataObject.cs" />
+    <Compile Include="DataObjectCache.cs" />
+    <Compile Include="DataObjectException.cs" />
+    <Compile Include="EntityDataReader.cs" />
+    <Compile Include="IDataAccess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlBulkInserter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Specification.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_class diagram\PyroGenesis.Data.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Azuro.Caching\Azuro.Caching.csproj">
+      <Project>{7448DE8A-AA9B-43C2-92C9-F55B455A5074}</Project>
+      <Name>Azuro.Caching</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Azuro.Common\Azuro.Common.csproj">
+      <Project>{D83790DD-79C0-4823-87A6-92660EEA1762}</Project>
+      <Name>Azuro.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Azuro.Data.SqlTextCommandHandler\Azuro.Data.SqlTextCommandHandler.csproj">
+      <Project>{1D2B2E1E-A6A7-467B-9EE8-AD03CDA15AE5}</Project>
+      <Name>Azuro.Data.SqlTextCommandHandler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

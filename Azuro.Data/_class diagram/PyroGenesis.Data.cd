@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azuro.Data.BulkInserterReader" BaseTypeListCollapsed="true">
+    <Position X="13" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BACQAAAgMCgAAAABCIAABCYggCJEAEYwIBQAAACAJEA=</HashCode>
+      <FileName>BulkInserterReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azuro.Data.DataAccessConfigObjectHelper">
+    <Position X="9" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAKAABABAIAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccessConfigObjectHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataAccessConfigObjectSectionEntity">
+    <Position X="6.25" Y="3.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAAAAAAABEAAAAACQAAABAAIAAIWAAAAAIAAA=</HashCode>
+      <FileName>DataAccessConfigObjectSectionEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataAccessConfigSection">
+    <Position X="0.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccessConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataAccessConfigObjectSection">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAWAAAAAIAAA=</HashCode>
+      <FileName>DataAccessConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataAccessConfigSectionHandler">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccessConfigSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataConnectionAttribute">
+    <Position X="6.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>DataConnectionAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.DataObject">
+    <Position X="3.25" Y="3.75" Width="2.75" />
+    <NestedTypes>
+      <Class Name="Azuro.Data.DataObject.DataObjectCache" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataObjectCache.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Azuro.Data.DataObject.FieldInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataObjectCache.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>YARQCMAAIACCCGQARrNEIACAAMFCAEABoGIBkAQAokI=</HashCode>
+      <FileName>DataObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Data.EntityDataReader&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BACQAAAgMCgAAAABCAAEBCcogAJEAEQwIBQgAACBJEg=</HashCode>
+      <FileName>EntityDataReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azuro.Data.SqlBulkInserter">
+    <Position X="10" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAJBIAQEIAAAADAAAAEEAAQAgCAAEAAAAgAQAAoEAQA=</HashCode>
+      <FileName>SqlBulkInserter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Azuro.Data.IDataAccess">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAACUAABAEAAAAAAABAAABgCAAAAAAAAA=</HashCode>
+      <FileName>IDataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

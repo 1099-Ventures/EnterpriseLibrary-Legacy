@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azuro.Common.Collections.Triplet&lt;T1, T2, T3&gt;">
+    <Position X="7" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAEAAAA=</HashCode>
+      <FileName>Collections\Triplet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.Configuration.ConfigurationHelper">
+    <Position X="1.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\ConfigurationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.Cryptography.CryptographicHelper" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgASAAAAAQEEAIAIAAAABAABAQAAAACAAIAAA=</HashCode>
+      <FileName>Cryptography\CryptographicHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Azuro.Common.Messaging.SerializedMessage&lt;T&gt;">
+    <Position X="4.25" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAIwABAAAAEAAAAAAAAIAA=</HashCode>
+      <FileName>Messaging\SerializedMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Common.Zip.SharpZip">
+    <Position X="7" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAgAAAAgAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zip\SharpZip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Security.SecurityExceptionViewer">
+    <Position X="7" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\SecurityExceptionViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azuro.Security.User" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Azuro.Security.User.LogonTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Security\User.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azuro.Security.User.LogonProviders" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Security\User.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACQAAIAEAAAAASQAAgAACAACCAAABAAAIAI=</HashCode>
+      <FileName>Security\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

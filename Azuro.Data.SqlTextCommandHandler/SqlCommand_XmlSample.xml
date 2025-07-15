@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SqlCommands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Procedures>
+    <Procedure name="ListProcedure">
+      <CommandText>Select * from someTable where id=@id</CommandText>
+      <Parameters>
+        <Parameter name="ID" type="System.Int32" />
+      </Parameters>
+    </Procedure>
+    <Procedure name="test1">
+      <CommandText>insert into testTable values(@id, @name)</CommandText>
+      <Parameters>
+        <Parameter name="@id" type="System.Int32" />
+        <Parameter name="@name" type="System.String" />
+      </Parameters>
+    </Procedure>
+    <Procedure name="test2">
+      <CommandText>insert into testTable values(@id, @name)</CommandText>
+      <Parameters>
+        <Parameter name="@id" type="System.Int32" />
+        <Parameter name="@name" type="System.String" />
+      </Parameters>
+    </Procedure>
+  </Procedures>
+</SqlCommands>
